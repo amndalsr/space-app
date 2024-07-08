@@ -12,7 +12,6 @@ const ItemListaEstilizado = styled.li`
     gap: 22px;
 `
 
-// eslint-disable-next-line react/prop-types
 const ItemNavegacao = ({children, iconeAtivo, iconeInativo, ativo = false}) => {
     return <ItemListaEstilizado $ativo={ativo}>
         <img src={ativo ? iconeAtivo : iconeInativo} alt="" />
