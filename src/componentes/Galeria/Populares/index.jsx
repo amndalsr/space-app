@@ -1,7 +1,7 @@
 import Titulo from "../../Titulo";
 
 const Populares = () => {
-    return <Titulo>Populares</Titulo>; 
+    return <Titulo $alinhamento="center">Populares</Titulo>; 
 }
 
 export default Populares;   
