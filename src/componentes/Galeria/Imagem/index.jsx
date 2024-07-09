@@ -41,7 +41,7 @@ const Rodape = styled.footer`
 const Imagem = ({
   foto,
   expandida = false,
-  aoZoomSelecionado,
+  aoZoomSolicitado,
   aoAlternarFavorito,
 }) => {
   const iconeFavorito = foto.favorita
@@ -61,7 +61,7 @@ const Imagem = ({
           {!expandida && (
             <BotaoIcone
               aria-hidden={expandida}
-              onClick={() => aoZoomSelecionado(foto)}
+              onClick={() => aoZoomSolicitado(foto)}
             >
               <img src="/icones/expandir.png" alt="Icone de expandir" />
             </BotaoIcone>
