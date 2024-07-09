@@ -6,7 +6,7 @@ import fotos from "./fotos-populares.json";
 const ColunaFotos = styled.section`
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 25px;
   gap: 16px;
 `;
 
